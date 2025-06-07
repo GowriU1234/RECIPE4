@@ -1,22 +1,18 @@
-# Recipe Generator Backend (Flask + OpenAI)
+# Recipe Generator Frontend
 
-Flask server to handle requests from the frontend and return AI-generated recipes.
+A React app that takes ingredients and generates AI-powered recipes.
 
-## 💡 Requirements
+## 📦 Features
+- Input ingredients
+- Calls backend API to generate recipe
+- Displays result beautifully with shadcn/ui
 
-- Python 3.10+
-- OpenAI API key
-
-## 🔧 Setup
+## 🚀 Getting Started
 
 ```bash
-pip install -r requirements.txt
-export OPENAI_API_KEY=your_openai_key
-python app.py
+npm install
+npm run dev
 ```
 
-## 🌍 Deployment
-
-Recommended: [Render](https://render.com/)
-- Use environment variable: `OPENAI_API_KEY`
-- Start command: `python app.py`
+## 🌐 Deployment
+- Recommended: [Vercel](https://vercel.com/)
